@@ -15,7 +15,7 @@ The idea is to take the points where the change in slope is maximum (these point
 
 ![slope distribution](https://user-images.githubusercontent.com/63223240/137791129-57aa84d9-69a7-480e-883f-1909c7b7dc14.png)
 
-We now take the plot the point where the slope change is maximum.
+### We now plot the points where the change in slope is maximum.
 
 ![final points for detecting pulse edges](https://user-images.githubusercontent.com/63223240/137791311-732dada1-51e4-40b0-bb21-d878927090f3.png)
 
