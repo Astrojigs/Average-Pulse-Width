@@ -11,7 +11,7 @@ The data used is from [here](https://mast.stsci.edu/portal/Mashup/Clients/Mast/P
 ![pulse in wave](https://user-images.githubusercontent.com/63223240/137790792-caca34bd-d089-449b-8f5c-313fbbdd9e88.png)
 (*Sorry for bad sketch*)
 
-The idea is to take the points where the change in slope is maximum as the edges of the pulses. We then see how the slope of the data is distributed.
+The idea is to take the points where the change in slope is maximum (these points will be the pulse edges). We then see how the slope of the data is distributed.
 
 ![slope distribution](https://user-images.githubusercontent.com/63223240/137791129-57aa84d9-69a7-480e-883f-1909c7b7dc14.png)
 
