@@ -20,7 +20,21 @@ The idea is to take the points where the change in slope is maximum (these point
 ![final points for detecting pulse edges](https://user-images.githubusercontent.com/63223240/137791311-732dada1-51e4-40b0-bb21-d878927090f3.png)
 
 Last but not the least.
-Taking the average difference between each pulse.
+Finding the average width of these pulses. We can do this by taking the  difference between the x component of these points. Add them all up and divide by the total number of pulses.
+```
+# Get the final time intervals:
+time_intervals = []
+
+for i in range(1,len(selective_x)):
+    time_diff = selective_x[i]-selective_x[i-1]
+    time_intervals.append(time_diff)
+
+time_intervals = np.array(time_intervals)
+
+time_intervals.mean()
+```
+`0.38003271961972585
+` in my case.
 
 That's it!!
 
